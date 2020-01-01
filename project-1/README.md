@@ -4,6 +4,8 @@ Projeto baseado no artigo **[SitePoint](encurtador.com.br/jkKV2)**
 
 ## Recursos Utilizados
 
+https://loading.io/button/
+
 ## Executando a aplicação localmente
 
 ```
