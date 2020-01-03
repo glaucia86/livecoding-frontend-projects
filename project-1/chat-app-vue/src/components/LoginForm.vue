@@ -5,7 +5,7 @@
       <b-form @submit.prevent="onSubmit">
 
         <b-alert variant="danger" :show="hasError">{{ error }}</b-alert>
-        <b-form-group id="userInputGroup" label="userInput" label-for="userInput">
+        <b-form-group id="userInputGroup" label="Usuário" label-for="userInput">
           <b-form-input id="userInput"
                         type="text"
                         placeholder="Digite o seu usuário"
@@ -55,4 +55,4 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped></style>
+<style></style>
