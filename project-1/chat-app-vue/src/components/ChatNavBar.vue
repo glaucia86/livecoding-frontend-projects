@@ -22,5 +22,10 @@ export default {
     ]),
   },
 };
-
 </script>
+
+<style>
+  #chat-navbar {
+    margin-bottom: 15px;
+  }
+</style>
