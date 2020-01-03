@@ -53,9 +53,11 @@ Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser execu
 
 Caso desejam acompanhar o desenvolvimento desse projeto, abaixo segue a lista de vídeos já disponíveis:
 
-- **[Projeto 1: Chat App - Parte I](https://youtu.be/N4VxZ6RsIR8)**
-- **[Projeto 1: Chat App - Parte II]()**
+- **[Projeto 1: Chat App - Parte 1](https://youtu.be/N4VxZ6RsIR8)**
+- **[Projeto 1: Chat App - Parte 2](https://youtu.be/CsGb4PfzC0c)**
+- **[Projeto 1: Chat App - Parte 2.1](https://youtu.be/QC8hHdZOZuQ)**
 - **[Projeto 1: Chat App - Parte III]()**
+- **[Projeto 1: Chat App - Parte IV]()**
 
 ## Links & Recursos Importantes
 
