@@ -1,10 +1,10 @@
 <template>
   <div class="login">
     <b-jumbotron header="Aplicação Chat com Vue"
-                  lead="Desenvolvido com muito ❤️ - Rio de Janeiro 2020"
+                  lead="Desenvolvido com muito ❤️ - Rio de Janeiro, 2020"
                   bg-variant="primary"
                   text-variant="white">
-      <p>ão deixe de acompanhar mais vídeos Tutoriais como esse!</p>
+      <p>Não deixe de acompanhar mais vídeos Tutoriais como esse!</p>
       <b-button variant="danger" href="https://www.youtube.com/user/l32759" role="button">Inscreva-se no Canal</b-button>
     </b-jumbotron>
     <b-container>
