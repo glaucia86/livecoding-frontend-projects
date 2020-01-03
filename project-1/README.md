@@ -1,6 +1,6 @@
 # Projeto 1 - Desenvolvendo uma Aplicação Chat em Tempo Real com Vue
 
-Projeto baseado no artigo **[SitePoint](encurtador.com.br/jkKV2)**
+Projeto baseado no artigo **[SitePoint](https://aka.ms/AA6x920)**
 
 ## Recursos Utilizados
 
