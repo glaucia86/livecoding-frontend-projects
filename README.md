@@ -8,9 +8,11 @@ Repositório com 9 projetos Front-End para aprender diferentes bibliotecas e fra
 
 O desenvolvedor **[Simon Holdorf](https://twitter.com/simonholdorf)**, escreveu um post no site dev.to sobre: **[9 Projetos que você pode fazer para se tornar um Front-End Master em 2020](https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h?signin=true)**, que seguindo os projetos citados nesse artigo que podemos nos tornar melhores desenvolvedores Front-End durante o ano de 2020.
 
-Como a minha expertise não é Front-End, mas sim Back-End, decidi usar os tutoriais desse artigo para fazer live coding e consequentemente aprender um pouco mais sobre diferentes bibliotecas e frameworks (Front-End) do mercado.
+Como o meu expertise principal não é Front-End, mas sim Back-End, decidi então usar os tutoriais desse artigo para fazer live coding e consequentemente aprender um pouco mais sobre diferentes bibliotecas e frameworks (Front-End) do mercado. E também entrar no desafio do #100daysofcode (100 dias de código) 
 
-Esses projetos desenvolvidos são para fins de estudo e discussão durante o live coding no Twitch e no Youtube
+p.s.: **[Para saber mais informações sobre #100daysofcode - AQUI](https://www.100daysofcode.com/)**
+
+Esses projetos desenvolvidos são para fins de estudo pessoal e discussão durante o live coding no **[Twitch](https://www.twitch.tv/glaucia_lemos86)** e no **[Youtube](https://www.youtube.com/user/l32759)**
 
 ## Recursos Utilizados 🚀
 
