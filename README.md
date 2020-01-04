@@ -23,7 +23,7 @@ Esses projetos desenvolvidos são para fins de estudo pessoal e discussão duran
 
 | Projeto | Descrição | Link do Projeto | Tecnologias | Link dos Vídeos
 |---|---|---|---|---|
-| **[Projeto 1 - Desenvolvendo uma Aplicação Chat em Tempo Real com Vue](project-1/README.md)** | Desenvolvimento de uma aplicação Vue com Pusher e Deploy da Aplicação no Azure | **[chat-app-vue](project-1/README.md)** | `vue, pusher, azure blob storage, loading.io, node.js` | **[Parte 1](https://youtu.be/N4VxZ6RsIR8)**, **[Parte 2](https://youtu.be/CsGb4PfzC0c)**, **[Parte 2.1](https://youtu.be/QC8hHdZOZuQ)** |
+| **[Projeto 1 - Desenvolvendo uma Aplicação Chat em Tempo Real com Vue](project-1/README.md)** | Desenvolvimento de uma aplicação Vue com Pusher e Deploy da Aplicação no Azure | **[chat-app-vue](project-1/README.md)** | `vue, pusher, azure blob storage, loading.io, node.js` | **[Parte 1](https://youtu.be/N4VxZ6RsIR8)**, **[Parte 2](https://youtu.be/CsGb4PfzC0c)**, **[Parte 2.1](https://youtu.be/QC8hHdZOZuQ)**, **[Parte 3](https://youtu.be/e-3RXI3SrNc)** |
 | TBD-02 | TBD | TBD | TBD | TBD |
 | TBD-03 | TBD | TBD | TBD | TBD |
 | TBD-04 | TBD | TBD | TBD | TBD |
