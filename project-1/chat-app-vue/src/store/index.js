@@ -35,3 +35,54 @@ export default new Vuex.Store({
   plugins: [vuexLocal.plugin],
   strict: debug,
 });
+
+/**
+ * state: {
+    loading: false,
+    sending: false,
+    error: 'Tudo certo! Essa é só uma mensagem de erro!',
+    user: {
+      username: 'Elsa',
+      name: 'Elsa Frozen',
+    },
+    reconnect: false,
+    activeRoom: {
+      id: '124',
+    },
+    rooms: [
+      {
+        id: '123',
+        name: 'General',
+      },
+      {
+        id: '321',
+        name: 'Private',
+      },
+    ],
+    users: [
+      {
+        username: 'Elsa',
+        name: 'Elsa Frozen',
+        presence: 'online',
+      },
+      {
+        username: 'Anna',
+        name: 'Anna Frozen',
+        presence: 'offline',
+      },
+    ],
+    messages: [
+      {
+        username: 'Elsa',
+        date: '04/01/2020',
+        text: 'Oi! Me chamo Elsa. E você?',
+      },
+      {
+        username: 'Anna',
+        date: '04/01/2020',
+        text: 'Oi! Me chamo Anna. Você é minha irmã?',
+      },
+    ],
+    userTyping: null,
+  },
+ */

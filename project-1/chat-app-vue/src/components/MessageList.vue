@@ -9,7 +9,7 @@
           <small class="text-muted float-right">@{{ message.username }}</small>
         </div>
         <p class="message-text">
-          {{ message.text }
+          {{ message.text }}
         </p>
         <div class="clearfix">
           <small class="text-muted float-right">{{ message.date }}</small>
@@ -23,7 +23,7 @@
 import { mapState } from 'vuex';
 
 export default {
-  name: 'MessageList',
+  name: 'message-list',
 
   computed: {
     ...mapState([
