@@ -51,7 +51,7 @@ Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser execu
 
 ## Vídeos da Série 📺
 
-Caso desejam acompanhar o desenvolvimento desse projeto, abaixo segue a lista de vídeos já disponíveis:
+Caso desejam acompanhar o desenvolvimento desse projeto, segue abaixo a lista de vídeos já disponíveis:
 
 - **[Projeto 1: Chat App - Parte 1](https://youtu.be/N4VxZ6RsIR8)**
 - **[Projeto 1: Chat App - Parte 2](https://youtu.be/CsGb4PfzC0c)**
