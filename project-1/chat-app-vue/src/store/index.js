@@ -2,8 +2,8 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import VuexPersistence from 'vuex-persist';
 
-// import mutations from './mutations';
-// import actions from './actions';
+import mutations from './mutations';
+import actions from './actions';
 
 Vue.use(Vuex);
 
@@ -26,8 +26,8 @@ export default new Vuex.Store({
     messages: [],
     userTyping: null,
   },
-  // mutations,
-  // actions,
+  mutations,
+  actions,
   getters: {
     // se 'state.error for null == false, se não retorna true'
     hasError: state => !!state.error,
