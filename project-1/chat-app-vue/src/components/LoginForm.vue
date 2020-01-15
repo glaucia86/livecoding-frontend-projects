@@ -42,7 +42,7 @@ export default {
     isValid() {
       // Ex.: user: glaucia_lemos86 (userId => resultado)
       const resultado = this.userId.length < 3;
-      return resultado || this.loading;
+      return resultado ? resultado : this.loading;
     },
     ...mapState([
       'loading',

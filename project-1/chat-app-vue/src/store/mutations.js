@@ -36,7 +36,7 @@ export default {
 
   clearChatRoom(state) {
     state.users = [];
-    state.messges = [];
+    state.messages = [];
   },
 
   setMessages(state, messages) {
@@ -44,7 +44,7 @@ export default {
   },
 
   addMessage(state, message) {
-    state.message.push(message);
+    state.messages.push(message);
   },
 
   setSending(state, status) {

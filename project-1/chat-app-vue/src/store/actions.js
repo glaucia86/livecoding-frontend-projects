@@ -1,7 +1,7 @@
 /**
  * arquivo: src/store/actions.js
  * Data: 14/01/2020
- * Descrição
+ * Descrição: s
  * Author: Glaucia Lemos
  */
 
@@ -19,15 +19,16 @@ export default {
       commit('setError', '');
       commit('setLoading', true);
 
-      // Usário está conectado ao serviço!
+      // Conexão do usário ao serviço do chatKit
       const currentUser = await chatkit.connectUser(userId);
+
       commit('setUser', {
         username: currentUser.id,
-        name: currentUser.name
+        name: currentUser.name,
       });
       commit('setReconnect', false);
 
-      // Testes de usuário:
+      // Testando o usuário
       console.log(state.user);
     } catch (error) {
       handleError(commit, error);

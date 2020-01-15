@@ -7,12 +7,12 @@
 
 import { ChatManager, TokenProvider } from '@pusher/chatkit-client';
 
-const INSTANCE_LOCATOR = process.env.VUE_CHAT_APP_INSTANCE_LOCATOR;
-const TOKEN_URL = process.env.VUE_CHAT_APP_TOKEN_URL;
-const MESSAGE_LIMIT = Number(process.env.VUE_CHAT_APP_MESSAGE_LIMIT) || 10;
+const INSTANCE_LOCATOR = process.env.VUE_APP_INSTANCE_LOCATOR;
+const TOKEN_URL = process.env.VUE_APP_TOKEN_URL;
+// const MESSAGE_LIMIT = Number(process.env.VUE_APP_MESSAGE_LIMIT) || 10;
 
 let currentUser = null;
-let activeRoom = null;
+// let activeRoom = null;
 
 async function connectUser(userId) {
   const chatManager = new ChatManager({
