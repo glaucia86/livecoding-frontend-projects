@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * arquivo: src/store/actions.js
  * Data: 14/01/2020
