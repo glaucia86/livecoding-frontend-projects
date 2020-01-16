@@ -13,7 +13,8 @@ module.exports = {
     'no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
     'no-unneeded-ternary': 'off',
-    'import/no-cycle': 'off'
+    'import/no-cycle': 'off',
+    'consistent-return': 'off'
   },
   parserOptions: {
     parser: 'babel-eslint',
