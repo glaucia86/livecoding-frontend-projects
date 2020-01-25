@@ -15,6 +15,7 @@ function handleError(commit, error) {
 }
 
 export default {
+  // Função responsável por efetuar o login no chat
   async login({ commit, state }, userId) {
     try {
       commit('setError', '');
@@ -48,6 +49,16 @@ export default {
       handleError(commit, error);
     } finally {
       commit('setLoading', false);
+    }
+  },
+
+  // Função responsável por lidar com a ação da alteração de salas no chat
+  async changeRoom({ commit }, roomId) {
+    try {
+      const { id, name } = await chatkit.subscribeToRoom(roomId);
+      commit('setActiveRoom', { id, name });
+    } catch (error) {
+      handleError(commit, error);
     }
   },
 };
