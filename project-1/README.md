@@ -62,7 +62,7 @@ Caso desejam acompanhar o desenvolvimento desse projeto, segue abaixo a lista de
 - **[Projeto 1: Chat App - Parte 5.2](https://youtu.be/JYgp01Z35GU)**
 - **[Projeto 1: Chat App - Parte 6.1](https://youtu.be/eRygTPjD1OE)**
 - **[Projeto 1: Chat App - Parte 6.2](https://youtu.be/XgaWfcPxoVE)**
-- **[Projeto 1: Chat App - Parte 7]()**
+- **[Projeto 1: Chat App - Parte 7](https://youtu.be/RZpq46Y7kh4)**
 - **[Projeto 1: Chat App - Parte 8]()**
 
 ## Links & Recursos Importantes
