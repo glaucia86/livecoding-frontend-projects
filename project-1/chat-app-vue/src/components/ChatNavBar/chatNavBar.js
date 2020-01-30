@@ -2,7 +2,7 @@
 /**
  * File: src/components/ChatNavBar/chatNavbar.js
  * Date: 29/01/2020
- * Description:
+ * Description: componente responsável pela NavBar do Chat
  * Author: Glaucia Lemos
  */
 
