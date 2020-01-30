@@ -8,6 +8,7 @@
         <b-form-input id="message-input"
                       type="text"
                       v-model="message"
+                      @input="isTyping"
                       placeholder="Digite a mensagem"
                       autocomplete="off"
                       required>
@@ -23,11 +24,12 @@
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex';
+import { mapActions, mapState, mapGetters } from 'vuex';
+// eslint-disable-next-line import/extensions
+import { isTyping } from '../chatkit.js';
 
 export default {
-  name: 'MessageForm',
-
+  name: 'message-form',
   data() {
     return {
       message: '',
@@ -44,6 +46,20 @@ export default {
     ...mapGetters([
       'hasError',
     ]),
+  },
+  methods: {
+    ...mapActions([
+      'sendMessage',
+    ]),
+    async onSubmit() {
+      const result = await this.sendMessage(this.message);
+      if (result) {
+        this.message = '';
+      }
+    },
+    async isTyping() {
+      await isTyping(this.activeRoom.id);
+    },
   },
 };
 </script>
