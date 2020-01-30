@@ -66,7 +66,7 @@ export default {
   async sendMessage({ commit }, message) {
     try {
       commit('setError', '');
-      commit('setMessage', true);
+      commit('setSending', true);
       const messageId = await chatkit.sendMessage(message);
       return messageId;
     } catch (error) {
