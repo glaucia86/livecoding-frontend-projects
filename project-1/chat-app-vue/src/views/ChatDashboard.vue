@@ -32,7 +32,7 @@
 <script>
 import { mapState } from 'vuex';
 
-import ChatNavBar from '@/components/ChatNavBar.vue';
+import ChatNavBar from '@/components/ChatNavBar/index.vue';
 import RoomList from '@/components/RoomList.vue';
 import MessageList from '@/components/MessageList.vue';
 import MessageForm from '@/components/MessageForm.vue';

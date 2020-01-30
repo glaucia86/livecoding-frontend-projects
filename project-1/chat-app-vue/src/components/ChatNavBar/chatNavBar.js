@@ -1,16 +1,11 @@
-<template>
-  <b-navbar id="chat-navbar" toggleable="md" type="dark" variant="primary">
-    <b-navbar-brand href="#">
-      Aplicação Chat com Vue
-    </b-navbar-brand>
-    <b-navbar-nav class="ml-auto">
-      <b-nav-text>{{ user.name }} | </b-nav-text>
-      <b-nav-item href="#" @click="onLogout" active>Sair</b-nav-item>
-    </b-navbar-nav>
-  </b-navbar>
-</template>
+// @ts-nocheck
+/**
+ * File: src/components/ChatNavBar/chatNavbar.js
+ * Date: 29/01/2020
+ * Description:
+ * Author: Glaucia Lemos
+ */
 
-<script>
 import { mapState, mapActions, mapMutations } from 'vuex';
 
 export default {
@@ -49,10 +44,3 @@ export default {
     }
   },
 };
-</script>
-
-<style>
-  #chat-navbar {
-    margin-bottom: 15px;
-  }
-</style>
