@@ -14,26 +14,4 @@
   </div>
 </template>
 
-<script>
-import { mapState, mapActions } from 'vuex';
-
-export default {
-  name: 'RoomList',
-
-  computed: {
-    ...mapState([
-      'activeRoom',
-      'rooms',
-    ]),
-  },
-
-  methods: {
-    ...mapActions([
-      'changeRoom',
-    ]),
-    onChange(room) {
-      this.changeRoom(room.id);
-    },
-  },
-};
-</script>
+<script src="./roomList.js"></script>
