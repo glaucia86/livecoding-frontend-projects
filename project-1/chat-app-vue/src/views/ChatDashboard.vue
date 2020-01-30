@@ -36,7 +36,7 @@ import ChatNavBar from '@/components/ChatNavBar/index.vue';
 import RoomList from '@/components/RoomList/index.vue';
 import MessageList from '@/components/MessageList/index.vue';
 import MessageForm from '@/components/MessageForm/index.vue';
-import UserList from '@/components/UserList.vue';
+import UserList from '@/components/UserList/index.vue';
 
 export default {
   name: 'Chat',

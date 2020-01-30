@@ -13,22 +13,4 @@
   </div>
 </template>
 
-<script>
-import { mapState } from 'vuex';
-
-export default {
-  name: 'UserList',
-  computed: {
-    ...mapState([
-      'users',
-      'loading',
-    ]),
-  },
-
-  methods: {
-    statusColor(status) {
-      return status === 'online' ? 'success' : 'warning';
-    },
-  },
-};
-</script>
+<script src="./userList.js"></script>
