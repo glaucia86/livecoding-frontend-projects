@@ -22,50 +22,6 @@
   </div>
 </template>
 
-<script>
-import { mapState } from 'vuex';
+<script src="./messageList.js"></script>
 
-export default {
-  name: 'message-list',
-
-  computed: {
-    ...mapState([
-      'messages',
-      'userTyping',
-    ]),
-  },
-};
-</script>
-
-<style>
-  .message-list {
-    margin-bottom: 15px;
-    padding-right: 15px;
-  }
-
-  .message-group {
-    height: 65vh !important;
-    overflow-y: scroll;
-  }
-
-  .message {
-    border: 1px solid lightblue;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 15px;
-  }
-
-  .message-title {
-    font-size: 1rem;
-    display: inline;
-  }
-
-  .message-text {
-    color: gray;
-    margin-bottom: 0;
-  }
-
-  .user-typing {
-    height: 1rem;
-  }
-</style>
+<style src="./messagelist.css" scoped></style>
