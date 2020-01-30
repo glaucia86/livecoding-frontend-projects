@@ -23,43 +23,4 @@
   </div>
 </template>
 
-<script>
-import { mapActions, mapState, mapGetters } from 'vuex';
-// eslint-disable-next-line import/extensions
-import { isTyping } from '../chatkit.js';
-
-export default {
-  name: 'message-form',
-  data() {
-    return {
-      message: '',
-    };
-  },
-
-  computed: {
-    ...mapState([
-      'sending',
-      'error',
-      'user',
-      'activeRoom',
-    ]),
-    ...mapGetters([
-      'hasError',
-    ]),
-  },
-  methods: {
-    ...mapActions([
-      'sendMessage',
-    ]),
-    async onSubmit() {
-      const result = await this.sendMessage(this.message);
-      if (result) {
-        this.message = '';
-      }
-    },
-    async isTyping() {
-      await isTyping(this.activeRoom.id);
-    },
-  },
-};
-</script>
+<script src="./messageForm.js"></script>

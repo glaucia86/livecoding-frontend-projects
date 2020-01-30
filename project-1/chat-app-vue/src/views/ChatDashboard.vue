@@ -35,7 +35,7 @@ import { mapState } from 'vuex';
 import ChatNavBar from '@/components/ChatNavBar/index.vue';
 import RoomList from '@/components/RoomList.vue';
 import MessageList from '@/components/MessageList.vue';
-import MessageForm from '@/components/MessageForm.vue';
+import MessageForm from '@/components/MessageForm/index.vue';
 import UserList from '@/components/UserList.vue';
 
 export default {
