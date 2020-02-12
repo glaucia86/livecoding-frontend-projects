@@ -3,6 +3,31 @@ name: Node.js CI
 on: [push]
 
 jobs:
+  build_win:
+    
+    runs-on: [windows-latest]
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+    - run: npm install
+      working-directory: ./project-1/chat-app-vue
+      
+    - run: npm run build --if-present
+      working-directory: ./project-1/chat-app-vue
+      
+    #executando o arquivo dos projetos em outra pasta
+    - run: node main
+      working-directory: ./project-2
+      
+      env:
+        CI: true
+    
+    
   build:
 
     runs-on: ubuntu-latest
