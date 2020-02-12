@@ -19,12 +19,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
         
     - run: npm install
-      working-direcotry: project-1/chat-app-vue
+      working-directory: ./project-1/chat-app-vue
       
     - run: npm run build --if-present
-      working-direcotry: project-1/chat-app-vue
+      working-directory: ./project-1/chat-app-vue
       
     - run: npm test
-      working-direcotry: project-1/chat-app-vue
+      working-directory: ./project-1/chat-app-vue
       env:
         CI: true
