@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Live Coding 9 Projetos Front-End
 
 on: [push]
 
@@ -17,14 +17,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-        
+
+    # Executando o C.I & C.D no project-1    
     - run: npm install
       working-directory: ./project-1/chat-app-vue
       
-    - run: npm run build --if-present
-      working-directory: ./project-1/chat-app-vue
-      
-    #executando o arquivo dos projetos em outra pasta
+    # Executando o C.I & C.D no project-2
     - run: node main
       working-directory: ./project-2
       
