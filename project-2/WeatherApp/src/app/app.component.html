@@ -1,21 +1,56 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- Slide Menu -->
 
-<router-outlet></router-outlet>
+<aside class="side-menu__container" [ngClass]="{'side-menu__container-active': showMenu}" (click)="toggleMenu()">
+  <nav class="slide-menu" [ngClass]="{'slide-menu-active': showMenu}" (click)="$event.stopImmediatePropagation();">
+    <section class="menu-header">
+      <span class="greeting__text">Seja Bem-Vindo(a) Novamente!</span>
+      <div class="profile-image__container">
+        <img src="https://avatars2.githubusercontent.com/u/1631477?s=460&amp;v=4" alt="profile-image"
+          class="profile__image">
+      </div>
+      <div class="account-details">
+        <span class="name__text">Glaucia Lemos</span>
+        <span class="email__text">@glaucia_lemos86</span>
+      </div>
+    </section>
+    <section class="menu-body">
+
+    </section>
+    <section class="menu-footer">
+
+    </section>
+  </nav>
+</aside>
+
+<div class="root__container">
+  <header [ngClass]="{'main__header-dark': darkModeActive}" class="main__header">
+    <div class="left__section">
+      <svg (click)="toggleMenu()" class="hamburger__icon" id="Menu_Burger_Icon"></svg>
+      <svg class="logo_icon"></svg>
+    </div>
+    <h3 class="date__text">Hoje</h3>
+
+    <div>
+      <span class="mode-toggle__text">Light</span>
+      <label class="toggle-button__container">
+        <input (click)="modeToggleSwitch()" type="checkbox" class="mode-toggle__input" />
+        <span [ngClass]="{'mode-toggle__bg-checked': darkModeActive}" class="mode-toggle__bg"></span>
+        <span [ngClass]="{'mode-toggle__circle-checked': darkModeActive}" class="mode-toggle__circle"></span>
+      </label>
+
+      <span class="mode-toggle__text">Dark</span>
+    </div>
+  </header>
+  <!-- Main Content -->
+
+  <!--<router-outlet></router-outlet>-->
+  <main class="main__container">
+    <div class="main-container__bg" [ngClass]="{'main-container__bg-dark': darkModeActive}"></div>
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main__footer">
+    <small class="copyright__text">Copyright © 2020 Weather App</small>
+  </footer>
+</div>
