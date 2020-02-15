@@ -26,7 +26,7 @@ jobs:
       
     #executando o arquivo dos projetos em outra pasta
     - run: node main
-      working-directory: ./project-2
+      working-directory: ./project-2/WeatherApp
       
       env:
         CI: true
