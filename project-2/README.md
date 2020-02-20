@@ -1,12 +1,13 @@
 # Projeto 2 - Weather App com Angular
 
-Projeto baseado no artigo **[SitePoint](https://www.digitalocean.com/community/tutorials/how-to-build-a-weather-app-with-angular-bootstrap-and-the-apixu-api)**
+Projeto baseado no artigo **[AQUI](https://www.digitalocean.com/community/tutorials/how-to-build-a-weather-app-with-angular-bootstrap-and-the-apixu-api)**
 
 ## Recursos Utilizados
 
 * **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aprendendofrontend-github-gllemos)**
 * **[Node.Js](https://nodejs.org/en/)**
-
+* **[Angular CLI](https://cli.angular.io/)**
+* **[Azure Storage Account](https://docs.microsoft.com/pt-br/azure/storage/common/storage-account-overview?WT.mc_id=aprendendofrontend-github-gllemos)**
 
 ## Executar Localmente o Projeto 🔥
 
@@ -39,28 +40,26 @@ Ao digitar a instrução acima, automaticamente ele irá baixar todas as depend�
 Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser executado localmente.
 
 ```
-> ng serve -o
+> ng serve --o
 ```
 
 ## Vídeos da Série 📺
 
 Caso desejam acompanhar o desenvolvimento desse projeto, segue abaixo a lista de vídeos já disponíveis:
 
-- **[Projeto 2: Weather App - Parte 1]()**
-- **[Projeto 2:  Weather App - Parte 2]()**
+- **[Projeto 2: Weather App - Parte 1](https://youtu.be/dVidU2JUwfI)**
+- **[Projeto 2:  Weather App - Parte 2](https://youtu.be/9sWKK5M877w)**
 - **[Projeto 2:  Weather App - Parte 3]()**
 
 ## Links & Recursos Importantes
 
 Durante a live menciono recursos e links de estudos para adquirir mais conhecimento em determinado assunto. Com isso, estou listando abaixo, todos os links mencionados
 
-- ✅ **[Crie sua primeira aplicação Vue.js no Visual Studio](https://docs.microsoft.com/visualstudio/javascript/quickstart-vuejs-with-nodejs?view=vs-2019&WT.mc_id=aprendendofrontend-github-gllemos)** 
-- ✅ **[Vue.js no Visual Studio Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?WT.mc_id=aprendendofrontend-github-gllemos)** 
+- ✅ **[Crie sua primeira aplicação Angular no Visual Studio](https://code.visualstudio.com/docs/nodejs/angular-tutorial?WT.mc_id=aprendendofrontend-github-gllemos)** 
+- ✅ **[Angular no Visual Studio Code](https://code.visualstudio.com/docs/nodejs/angular-tutorial?WT.mc_id=aprendendofrontend-github-gllemos)** 
 - ✅ **[Azure para desenvolvedores de JavaScript e Node.js](https://docs.microsoft.com/javascript/azure/?view=azure-node-latest&WT.mc_id=aprendendofrontend-github-gllemos)** 
+- ✅ **[Criando um aplicativo Angular com a API do Azure Cosmos DB para MongoDB](https://docs.microsoft.com/azure/cosmos-db/tutorial-develop-mongodb-nodejs?WT.mc_id=aprendendofrontend-github-gllemos)**
 
 ## Tenho Dúvidas... O que fazer? 🚩
 
 Caso tenham dúvidas aos códigos dos projetos relacionados aos workshops, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/glaucia86/livecoding-frontend-projects/issues)**. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
-
-**(documentação em desenvolvimento)**
-
