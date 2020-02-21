@@ -1,4 +1,4 @@
-# Projeto 2 - Weather App com Angular
+# Projeto 2 - Weather App com Angular 
 
 Projeto baseado no artigo **[AQUI](https://www.digitalocean.com/community/tutorials/how-to-build-a-weather-app-with-angular-bootstrap-and-the-apixu-api)**
 
@@ -35,7 +35,7 @@ Ao digitar a instrução acima, automaticamente ele irá baixar todas as depend�
 
 * `node_modules` - que contêm os packages do npm que precisará para o projeto.
 
-## Executando a Aplicação 💨
+## Executando a Aplicação Localmente 💨
 
 Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser executado localmente.
 
