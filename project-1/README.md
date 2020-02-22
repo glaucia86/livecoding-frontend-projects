@@ -2,6 +2,8 @@
 
 Projeto baseado no artigo **[SitePoint](https://aka.ms/AA6x920)**
 
+[![chatApp-1.gif](https://s5.gifyu.com/images/chatApp-1.gif)](https://gifyu.com/image/7jFd)
+
 ## Recursos Utilizados
 
 * **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aprendendofrontend-github-gllemos)**
