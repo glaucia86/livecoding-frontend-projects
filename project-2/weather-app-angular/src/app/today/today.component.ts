@@ -27,10 +27,15 @@ export class TodayComponent implements OnInit {
 
         this.weatherService.getWeatherDataByCoords(this.lat, this.lon).subscribe(data => {
           this.weather = data;
-
-          console.log(data);
         });
       });
     }
+  }
+
+  // ==> Método responsável por buscar Cidade pela api:
+  getCity(city) {
+    this.weatherService.getWeatherDataByCityName(city).subscribe((data) => {
+      this.weather = data;
+    });
   }
 }

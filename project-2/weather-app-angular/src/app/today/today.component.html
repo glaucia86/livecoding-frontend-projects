@@ -1,25 +1,41 @@
 <div class="row">
   <div class="col-md-6 offset-md-3">
-    <h5>Previsão do tempo atualizado da sua Cidade...</h5>
-    <h2>Tempo em: {{ weather.name }} - {{ weather.sys.country }}</h2>
+    <div class="col-sm-12 text-center">
+      <div class="input-group mt-5">
+        <input class="form-control" type="text" #userInput placeholder="Digite o nome da Cidade">
+        <div class="input-group-append">
+          <button class="input-group-text btn btn-outline-primary" (click)="getCity(userInput.value)">Buscar</button>
+        </div>
+      </div>
+      <h5>Previsão do tempo atualizado da sua Cidade...</h5>
+      <h2>Tempo em: {{ weather.name }} - {{ weather.sys.country }}</h2>
+    </div>
+    <div>
+      <!---A ser incluído-->
+    </div>
+    <table class="table table-light table-striped table-bordered table-sm">
+      <tbody>
+        <tr>
+          <td>Umidade</td>
+          <td>{{ weather.main.humidity }}%</td>
+        </tr>
+        <tr>
+          <td>Pressão Atmosférica</td>
+          <td>{{ weather.main.pressure }}hpa</td>
+        </tr>
+        <tr>
+          <td>Nascer do Sol</td>
+          <td>{{ weather.sys.sunrise * 1000 | date: 'H:mm' }}</td>
+        </tr>
+        <tr>
+          <td>Pôr do Sol</td>
+          <td>{{ weather.sys.sunset * 1000 | date: 'H:mm' }}</td>
+        </tr>
+        <tr>
+          <td>Coordenadas Geográficas</td>
+          <td>[{{ weather.coord.lat }}, {{ weather.coord.lon }}]</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <table class="table table-light table-striped table-bordered table-sm">
-    <tbody>
-      <tr>
-        <td>Umidade</td><td>{{ weather.main.humidity }}%</td>
-      </tr>
-      <tr>
-        <td>Pressão Atmosférica</td><td>{{ weather.main.pressure }}hpa</td>
-      </tr>
-      <tr>
-        <td>Nascer do Sol</td><td>{{ weather.sys.sunrise * 1000 | date: 'H:mm' }}</td>
-      </tr>
-      <tr>
-        <td>Pôr do Sol</td><td>{{ weather.sys.sunset * 1000 | date: 'H:mm' }}</td>
-      </tr>
-      <tr>
-        <td>Coordenadas Geográficas</td><td>[{{ weather.coord.lat }}, {{ weather.coord.lon }}]</td>
-      </tr>
-    </tbody>
-  </table>
 </div>

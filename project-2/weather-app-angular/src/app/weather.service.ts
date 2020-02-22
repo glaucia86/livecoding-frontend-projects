@@ -17,6 +17,17 @@ export class WeatherService {
 
       .set('lat', lat)
       .set('lon', lon)
+      .set('units', 'metric')
+      .set('appid', this.apiKey);
+
+    return this.http.get(this.url, { params });
+  }
+
+  // ==> Método para retornar o nome da Cidade:
+  getWeatherDataByCityName(city: string) {
+    const params = new HttpParams()
+
+      .set('q', city)
       .set('units', 'metrics')
       .set('appid', this.apiKey);
 
