@@ -16,7 +16,7 @@ Esses projetos desenvolvidos são para fins de estudo pessoal e discussão duran
 
 ## Recursos Utilizados 🚀
 
-- **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aprendendofrontend-github-gllemos)**
+- **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=javascript-0000-gllemos)**
 - **[Node.js](https://nodejs.org/en/)**
 
 ## Projetos Desenvolvidos 💻
@@ -35,12 +35,12 @@ Esses projetos desenvolvidos são para fins de estudo pessoal e discussão duran
 
 ## Links & Recursos Adicionais 📒
 
-- ✅ **[Tutorial - Vs Code com Angular](https://code.visualstudio.com/docs/nodejs/angular-tutorial?wt.mc_id=aprendendofrontend-github-gllemos)**
-- ✅ **[Tutorial - Vs Code com Vue](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?WT.mc_id=aprendendofrontend-github-gllemos)**
-- ✅ **[Tutorial - Vs Code com React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?WT.mc_id=aprendendofrontend-github-gllemos)**
-- ✅ **[Hospede & Faça Deploy de Site Estático no Azure](https://docs.microsoft.com/azure/javascript/tutorial-vscode-static-website-node-01?WT.mc_id=aprendendofrontend-github-gllemos)**
-- ✅ **[Free Trial Azure](https://azure.microsoft.com/pt-br/free/?wt.mc_id=aprendendofrontend-github-gllemos)**
-- ✅ **[Azure for Students](https://azure.microsoft.com/pt-br/free/students/?WT.mc_id=aprendendofrontend-github-gllemos)**
+- ✅ **[Tutorial - Vs Code com Angular](https://code.visualstudio.com/docs/nodejs/angular-tutorial?WT.mc_id=javascript-0000-gllemos)**
+- ✅ **[Tutorial - Vs Code com Vue](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?WT.mc_id=javascript-0000-gllemos)**
+- ✅ **[Tutorial - Vs Code com React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?WT.mc_id=javascript-0000-gllemos)**
+- ✅ **[Hospede & Faça Deploy de Site Estático no Azure](https://docs.microsoft.com/azure/javascript/tutorial-vscode-static-website-node-01?WT.mc_id=javascript-0000-gllemos)**
+- ✅ **[Free Trial Azure](https://azure.microsoft.com/free/?WT.mc_id=javascript-0000-gllemos)**
+- ✅ **[Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=javascript-0000-gllemos)**
 
 ## Tenho Dúvidas... O que Faço?! ❓
 
